@@ -1,0 +1,5 @@
+.vagrant/
+vendor/
+ivy/node_modules/
+ivy/.env
+.idea/

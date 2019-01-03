@@ -1,0 +1,20 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: 'E:\PHP_projects\ivy_php'
+        to: /home/vagrant/projects
+sites:
+    -
+        map: ivy.test
+        to: /home/vagrant/projects/ivy/public
+databases:
+    - homestead
+      ivy
+name: ivy-php
+hostname: ivy-php
